@@ -1,10 +1,9 @@
 import telebot
-from telebot import types
 import requests
 from translate import Translator
 
-bot = telebot.TeleBot('6755661158:AAG8F0sLi31FGpyBLBM7XBE0_b3R8vrr5Ss')
-API = 'ba254de9d08a61f898720562b968223c'
+bot = telebot.TeleBot('токен телеграм бота')
+API = 'API токен для сайта с прогнозом погоды'
 
 @bot.message_handler(commands=['start'])
 def start(message):
